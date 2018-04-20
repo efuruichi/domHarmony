@@ -34,3 +34,5 @@ var divElem2 = document.getElementById("first-name2");
 divElem2.innerHTML = "Marie";
 
 //8. Target the div id "first-name3" and replace the text "First Name" to "Anna".
+var divElem3 = document.getElementById("first-name3");
+divElem3.innerHTML = "Anna";

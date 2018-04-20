@@ -26,10 +26,11 @@ spanElem.innerHTML = "11";
 document.getElementsByClassName("menu")[2].appendChild(spanElem);
 
 //6. Target the div id "first-name1" and replace the text "First Name" to "Wendy".
-var divElem = document.getElementById("first-name1");
-divElem.innerHTML = "Wendy";
+var divElem1 = document.getElementById("first-name1");
+divElem1.innerHTML = "Wendy";
 
 //7. Target the div id "first-name2" and replace the text "First Name" to "Marie".
-
+var divElem2 = document.getElementById("first-name2");
+divElem2.innerHTML = "Marie";
 
 //8. Target the div id "first-name3" and replace the text "First Name" to "Anna".

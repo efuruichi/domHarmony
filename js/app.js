@@ -20,7 +20,10 @@ pElem.innerHTML = "My main objective is to find a Mrs. McDonald.";
 profile.appendChild(pElem);
 
 // 5. Create a span element of the id of "mail" and give it a content of 11. Append this element into the "Messages" li element.
-
+var spanElem = document.createElement("span");
+spanElem.id = "mail";
+spanElem.innerHTML = "11";
+document.getElementsByClassName("menu")[2].appendChild(spanElem);
 
 //6. Target the div id "first-name1" and replace the text "First Name" to "Wendy".
 
